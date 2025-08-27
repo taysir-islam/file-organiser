@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Ubuntu:wght@500&display=swap');
+body {
+			font-family: sans-serif;
+			padding: 20px;
+			
+		}
+body::-webkit-scrollbar{
+	display: none;
+}
+#drop-area {
+	border: 2px dashed #062232;
+	border-radius:25px;
+	padding: 100px;
+	text-align: center;
+	margin-bottom: 20px;
+	font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+	font-size: larger;
+	
+}
+#drop-area.hover {
+	background-color: #f0f0f0;
+	border-color: #1e3b4d;
+}
+.file-buttons {
+	margin-top: 20px;
+}
+.category {
+	margin-bottom: 15px;
+}
+.container {
+	box-shadow: 0 0 25px 10px #ccc;
+	border-radius: 25px;
+	padding: 20px;
+	background-color: #f9f9f9;
+	width: 50%;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+.container#file-list-container {
+	width: 55%;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-top: 50px;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;	
+}
+h1{
+
+  font-family: "Ubuntu", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  color: #011c2c;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 6px;
+  text-underline-offset: 10px;
+
+
+}
+button{
+  
+	  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #cadce6;
+  color: rgb(3, 25, 46);
+  cursor: pointer;
+  margin:auto ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+button:hover {
+  background-color: #2e434f;
+}

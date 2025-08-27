@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Preview</title>
+    <style>
+        #closeBtn {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            padding: 6px 14px;
+            font-size: 16px;
+            cursor: pointer;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <button id="closeBtn">Close</button>
+    <h1 id="file-name">Preview</h1>
+    <div id="viewer"></div>
+    <script>
+        document.getElementById("closeBtn").onclick = () => {
+            window.close();
+        };
+    </script>
+    <script src="viewer.js"></script>
+</body>
+</html>
